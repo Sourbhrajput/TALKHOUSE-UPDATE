@@ -1,0 +1,44 @@
+.card{
+    
+     height:250px;
+         
+          background-color: #181717;
+          border-radius:15px;
+          display: flex;
+          
+          align-items: center;
+          flex-direction:column;
+        padding: 0px 8rem 30px;   
+     
+}
+
+.wrapper{
+     min-height:80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.input{
+     width:180px;
+     height:30px;
+     outline: none;
+     background-color:#272424;
+     border: none;
+     color: #f3efef;
+     border-radius:5px;
+     font-size:1.6rem;
+     position: relative;
+     padding: 6px 12px;
+     bottom:10px;
+}
+.peragraph{
+     font-size: 1.4rem;
+     margin: 10px 0;
+}
+
+@media only  screen and   (max-width:415px) {
+     .card{
+          padding: 0px 5rem 30px; 
+     }
+}
